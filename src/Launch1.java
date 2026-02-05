@@ -6,7 +6,7 @@ public class Launch1 {
 		 Scanner sc = new Scanner(System.in);
 	        System.out.print("Enter a string: ");
 	        String str = sc.nextLine();
-	        str = str.replaceAll("\\s+", "").toLowerCase(); // Remove spaces and ignore case
+	        str = str.replaceAll("\\s+", "").toLowerCase(); 
 	        boolean isPalindrome = true;
 	        int n = str.length();
 	        for (int i = 0; i < n / 2; i++) {
